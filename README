@@ -1,0 +1,41 @@
+ /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\
+ *  photostack - Copyright 2005 Noel Jackson                           *
+ *                                                                     *
+ *  photostack is free software; you can redistribute it and/or modify *
+ *  it under the terms of the GNU General Public License as published  *
+ *  by the Free Software Foundation; either version 2 of the License,  *
+ *  or (at your option) any later version.                             *
+ *                                                                     *
+ *  photostack is distributed in the hope that it will be useful,      *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty        *
+ *  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.            *
+ *  See the GNU General Public License for more details.               *
+ *                                                                     *
+ *  You should have received a copy of the GNU General Public License  *
+ *  along with this; if not, write to the Free Software Foundation,    *
+ *  Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA      *
+ \* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+ * @author Noel Jackson <noel at noeljackson dot com>
+ * @license http://opensource.org/licenses/gpl-license.php GNU General Public License
+ * @copyright (c)2005 Noel Jackson
+ * Adapted from Singapore: http://www.sgal.org/
+
+ ** previously **
+ * @author Tamlyn Rhodes <tam at zenology dot co dot uk>
+ * @copyright (c)2003, 2004 Tamlyn Rhodes
+
+INSTALLATION INSTRUCTIONS
+
+1) Copy config.sample.php to config.php.
+
+2) Make sure the following files are writeable by your webserver (this may require making them world writable): config.php, config.users.php, cache/ galleries/
+
+3) Login to http://yourinstall/organize.php with the username admin and password admin and start uploading photos! Make sure to change the password once you are logged in!
+
+If you have any problems with installation, visit http://photostack.org/forum/.
+
+
+CONTRIBUTORS
+
+Noel Jackson, Rolandas Razma, Joe Brumley 
