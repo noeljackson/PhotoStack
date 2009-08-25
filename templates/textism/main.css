@@ -1,0 +1,120 @@
+		body
+		{
+			margin: 0px auto 0px auto;
+			text-align: center;
+			font-family: Georgia, Times, Serif;
+		}
+		
+		a, a:link, a:visited
+		{
+			color: black;
+			text-decoration: none;
+		} 
+		
+		a:hover { text-decoration: underline; }
+		
+		img
+		{
+			border: 0;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			font-size: 20px;
+			font-weight: normal;
+			margin: 0px 0px 30px 0px;
+			padding: 0px;
+		}		
+		h4
+		{
+			font-size: 10px;
+			font-weight: normal;
+			margin: 0px 0px 15px 0px;
+			padding: 2px;
+			clear: both;
+		}
+		
+		p
+
+		{
+			text-align: left;
+			margin: 0;
+			padding: 0;
+			font-size: 17px;
+		}
+		
+		#holder
+		{
+			margin: 0px auto 0px auto;
+			padding: 50px 0px 0px 0px;
+			text-align: left;
+			width: 370px;
+		}
+		
+		ul.galleries
+		{
+			list-style: none;
+			margin: 0px auto 0px auto;
+			padding: 0px;
+			width: 370px;
+		}
+		
+		ul.galleries li
+		{
+			list-style: none;
+			padding: 0px 0px 20px 0px;
+			margin: 0px;
+		}
+		
+		ul.galleries li p a img { margin-right: 10px; }
+		
+		ul.galleries li small
+		{
+			font-family: Verdana, Trebuchet, Sans;
+			font-size: 10px;
+			letter-spacing: .1em;
+			color: gray;
+			text-transform: uppercase;
+		}
+		
+				.navigation
+		{
+			float: left;
+			width: 100%;
+			padding: 0px;
+			padding-bottom: 20px;
+			text-align: center;
+		}
+		
+		.navigation select
+		{
+			padding: 0px;
+			margin: 0px;
+		}
+		
+				ul.images
+		{
+			width: 100%;
+			list-style: none;
+			list-style-position: inside;
+			margin: 0px;
+			padding: 0px;	
+		}
+		
+		ul.images li
+		{
+			float: left;
+			display: block;
+			padding: 0px;
+			margin: 0px;
+			height: 50px;
+			width: 50px;
+		}
+		
+		#photo
+		{
+			float: left;
+			width: 100%;
+			text-align: center;
+			margin: 20px 0px 20px 0px;
+		}

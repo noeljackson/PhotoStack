@@ -1,0 +1,9 @@
+INSTALLATION INSTRUCTIONS
+
+1) Copy config.sample.php to config.php.
+
+2) Make sure the following files are writeable by your webserver (this may require making them world writable): config.php, config.users.php, cache/ galleries/
+
+3) Login to http://yourinstall/organize.php with the username admin and password admin and start uploading photos! Make sure to change the password once you are logged in!
+
+If you have any problems with installation, visit http://photostack.org/forum/.

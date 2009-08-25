@@ -1,0 +1,19 @@
+# Make sure to turn this option on in config.php and move this file to .htaccess
+
+Options +FollowSymlinks
+RewriteEngine On
+
+# rewrite galleries
+RewriteCond %{REQUEST_URI} !/galleries/ 
+RewriteCond %{REQUEST_URI} !/templates/
+RewriteCond %{REQUEST_URI} !/rss/
+RewriteRule ^([^,]+)(,([0-9]+))?/$ index.php?gallery=$1&startat=$3 [QSA] 
+ 
+# rewrite images 
+RewriteCond %{REQUEST_URI} !/templates/
+RewriteCond %{REQUEST_URI} !/galleries/ 
+RewriteCond %{REQUEST_URI} !/rss/
+RewriteRule ^((.*)/)?([^/]+\.(jpeg|JPG|JPEG|jpg|jpe|png|PNG|GIF|gif|bmp|tif|tiff))$ index.php?gallery=$2&image=$3 [QSA]
+
+# rewrite rss
+RewriteRule ^((.*)/)?rss/?$ index.php?gallery=$2&template=rss [QSA]

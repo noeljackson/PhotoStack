@@ -1,0 +1,266 @@
+/* "Sleek White" by Noel Jackson, use as you wish. */
+body
+{
+	margin: 0px auto;
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	background: white;
+	color: #999;
+	font: normal 10px Helvetica, Arial, sans-serif;
+}
+
+a:link, a:visited, a:active
+{
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #333;
+	text-decoration: underline;
+}
+
+input
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+img
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+font-size: 10px;
+margin: 0px;
+padding: 0px 0px 0px 5px;
+height: 25px; line-height: 25px;
+}
+
+p
+{
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+strong {
+	background-color: #FFC;
+}
+
+#topbar {
+margin: 20px auto 10px auto;
+height: 25px;
+border-bottom: 1px solid #ccc;
+text-align: left;
+width: 600px;
+}
+
+#menu {
+margin: -25px 0px 0px auto; padding: 0px;
+font-weight: bold;
+list-style: none;
+text-align: right;
+width: 100%;
+}
+
+#menu li.button {
+margin: 0px 5px 0px auto;
+padding: px 0px 0px 0px;
+height: 25px;
+line-height: 25px;
+width: 55px;
+display: block;
+}
+#menu li ul {
+display: none;
+list-style: none;
+}
+#menu li:hover , #menu li.over {
+color: black;
+}
+#menu li:hover ul, #menu li.over ul {
+position: absolute;
+right: 0px;
+top: 20px;
+z-index: 10;
+display: block;
+margin: 0px;
+padding: 0px;
+text-align: left;
+width: 140px;
+}
+
+#menu li ul li {
+position: normal;
+margin: 0px; padding: 0px;
+line-height: 20px;
+height: auto;
+width: 140px;
+background-color: #ccc;
+}
+
+#menu li ul li a {
+margin: 0px;
+line-height: 20px;
+padding: 2px 3px 2px 10px;
+text-decoration: none;
+background: #ccc;
+display: block;
+}
+* html #menu li ul li a {
+height: 20px;
+}
+#menu li ul li a:hover {
+background: #666;
+color: #fff;
+}
+
+#menu li ul li.spacer {
+height: 5px;
+line-height: 5px;
+margin: 0px;
+padding: 0px;
+}
+
+#menu li ul li a span {
+display: inline;
+color: #ccc;
+padding-left: 3px;
+}
+
+#menu li ul li a:hover span{
+color: white;
+}
+
+#image
+{
+	z-index: 1;
+	text-align: center;
+	margin: 0px auto 5px auto;
+	padding: 30px;
+	border: 1px solid #666;
+}
+#image img {
+	z-index: 1;
+}
+
+.nav {
+display: block;
+line-height: 10px;
+font-size: 10px;
+height: 10px;
+position: relative;
+margin: 0px auto;
+margin-bottom: 10px;
+padding: 0px;
+width: 582px;
+}
+.nav a {
+padding: 0px 3px;
+}
+
+.list {
+left: -12px;
+voice-family: "\"}\""; 
+voice-family:inherit;
+left: auto;
+}
+.list {
+margin: 0px auto;
+right: -9px;
+position: relative;
+text-align: center;
+width: 600px;
+list-style: none;
+padding: 0px;
+}
+.list li {
+float: left;
+padding: 0px;
+margin: 0px 10px 10px 0px;
+}
+.list li span {
+height: 138px;
+width: 138px;
+display: block;
+background: white;
+}
+
+.list li span {
+display: table;
+_position: relative;
+overflow: hidden;
+border-width: 1px;
+border-color: #ccc #999 #999 #ccc;
+border-style: solid;
+}
+
+.list>li span {
+overflow: none;
+}
+
+.list li span:hover,.list li span.hover {
+background: #f7f7f7;
+}
+
+.list li span a {
+_position: absolute;
+_top: 50%;
+display: table-cell;
+vertical-align: middle;
+margin: 0px auto;
+text-align: center;
+}
+		
+.list li span a img {
+_position: relative;
+_top: -50%;
+_left: -50%;
+}
+
+.list h2 {
+display: block;
+font-size: 10px;
+line-height: 24px;
+width: 138px;
+}
+.list h2 a {
+display: inline;
+}
+
+.info {
+padding: 10px 0px;
+text-align: center;
+clear: both;
+border-top: 1px solid #ccc;
+width: 600px;
+margin: 20px auto;
+}
+.info a {
+margin: 0px 4px;
+}
+
+.hide {
+display: none;
+}
+.metadata {
+	margin: 0px auto;
+	text-align: center;
+}
+
+.alpha-shadow {
+  float: left;
+  background: url(shadow.gif) no-repeat bottom right;
+  margin: 0px -5px 0 0px !important;
+  margin: 0px -5px 0 0px;
+}
+
+.alpha-shadow div {
+  background: url(shadow2.png) no-repeat left top !important;
+  background: url(shadow2.gif) no-repeat left top;
+  padding: 0px 5px 5px 0px;
+}

@@ -1,0 +1,82 @@
+[TODO]
+* add ability to hide albums with a certain pattern
+* makesure external.php works in wordpress
+* add install.php installer (especially for new mysql stuff)
+* add ajax stuff to image editing page
+* fix rotating images in
+
+
+[DONE]
+
+* added: support for movies via http://flowplayer.org, ffmpeg, and getid3
+* update scriptaculous and prototype
+* added: jumploader.com java upload applet.
+* added mysql abilities: sample data schema available in photostack.sql
+* fixed: thumb.php speed issues
+* fixed: reordering bug
+* updated: scriptaculous to 1.6.2
+* fixed: bug with new_album and upload dialog
+* added: new styling to admin
+* fixed: problem with textism template and mod_rewrite
+* fixed: uploading LARGE file no-error problem
+* fixed: chmod errors/silenced them
+* fixed: secondary gallery menu glitch
+* fixed: more chmod problems
+* added: fixes for %s&nbsp; for jakob
+* re-fixed them! THANKS Michelle!
+* fixed: chmod problems
+* added: chmod control panel
+* updated scriptaculous and prototype.
+* added: ajax sortable images
+* added: headers for correct image names in thumb.php
+* fixed: date problems
+* added: exif support
+* added: image_path()
+*fixed: gallery dates
+* fixed: user type upon creation problems.
+* added: error message for admin when password is default.
+* added: install.php file
+* added: fixed entity problem with gallery_name.
+* added: error message for no config.php - config.php needs to now be moved from config.sample.php, mainly this is so your config will not be overwritten when  you do an svn update.
+* added: when you enable mod_rewrite from the control panel and .htaccess is writeable (and present), it auto-writes the necessary rules.
+* added: photostack now ignores all ._ named files.
+* added: ignored_text to config
+* updated: css changes
+* fixed: users couldn't login without changing password.
+* fixed: cache wouldn't update for changed metadata.csv
+* added: numerous error messages for permissions
+* fixed: gallery_next and gallery_prev
+* fixed: user creation bug.
+* updated scriptaculous to 1.5 and prototype to 1.4
+* added: rotate left 90 deg.
+* added: $this->config->separator
+* bug: generate thumbnails did not generate full-size scale-downs
+* bug: gallery thumb was not changeable
+* fixed htaccess to allow UPPERCASE JPG etc.
+* bug: progressive_thumbs and full_image_resize were not being written from the control panel
+* bug: fixed problem with str_split for brant
+* bug: fixed imagemagick image creation issue.
+* added config.php edit ability
+* bug: image.php had problems with entities
+* bug: headers already sent on line 405 fixed.
+* bug: renaming albums with entities didn't work, now fixed
+* bug: using images with entities as thumbnails didn't work, now fixed.
+* added easier user creation with a welcome email
+* added ability to rename images in organize
+* added bluk and single image rotation
+* fixed RSS problems in templates and mod_rewrite
+* fixed problems when creating galleries with entities
+* added gallery_date()
+* moved edit_gallery stuff in to the class
+* fixed date problems
+* added a select all box for deleting images
+* spruced up CSS for default template
+* add rename ability for gallery folders
+* added multi-file uploads, again, thanks to stickblog: http://the-stickman.com/web-development/javascript/upload-multiple-files-with-a-single-file-element/
+* changed up the default template for the final beta.
+* added desc and long_desc in templates (logic was there, just not presentation)
+* removed need for $index in function calls - now it's auto found.
+* fixed division by zero problems @ 1022 and 1058 in photostack.class.php
+* added rss htaccess rule, thanks to this guy: http://jonx.com/
+* removed ajaxian multi-file uploads, unfortunately.
+* added $ps->gallery_rss_url(); and incorporated in templates
